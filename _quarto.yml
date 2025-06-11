@@ -2,14 +2,6 @@ project:
   type: website
   output-dir: docs
 
-website:
-  title: "demosite"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
 format:
   html:
     theme:
@@ -19,4 +11,27 @@ format:
     toc: true
 
 
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Course Title"
+
+  page-navigation: true
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Syllabus"
+        href: syllabus.qmd
+      - text: "Lectures"
+        href: lectures.qmd
+      - text: "Homework"
+        href: homework.qmd
+
+  navbar:
+    title: "My Course Title"
+    left: []
 
