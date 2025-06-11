@@ -10,19 +10,12 @@ format:
     css: styles.css
     toc: true
 
-
-project:
-  type: website
-  output-dir: docs
-
 website:
   title: "My Course Title"
 
-  page-navigation: true
-
   sidebar:
     style: "docked"
-    search: true
+    collapse-level: 1
     contents:
       - text: "Syllabus"
         href: syllabus.qmd
